@@ -64,6 +64,12 @@ function process(rawText) {
 			response = new Date().toLocaleTimeString(); break;            
 		case "hello":
 			response = "hi, how are you doing?"; break;
+		case "whoisyourdeveloper":
+			response = "my developer is Yooku Anamuah Mensah"; break;         
+		case "whoisdevelopedthisvoicecommandassistant":
+			response = "my developer is Yooku Anamuah Mensah"; break;                     
+        case "what's the time":
+			response = new Date().toLocaleTimeString(); break;             
 		case "what'syourname":
 			response = "My name's Siri.";  break;
         case "what is your name":
